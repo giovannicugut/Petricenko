@@ -1,6 +1,6 @@
 
 //   in qualchemodo Assomiglia al IF/ELSE ,da le condizione
-
+/*
 const nu =45;
 
 switch(nu){   //cerca il nr. richesto  tra le case : e ritorna la risposta
@@ -16,3 +16,4 @@ switch(nu){   //cerca il nr. richesto  tra le case : e ritorna la risposta
     default:
         console.log("error")
 }
+        */
