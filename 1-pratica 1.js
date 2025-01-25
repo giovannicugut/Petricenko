@@ -1,5 +1,5 @@
 
-/*
+//  L'utente deve agg 2 film e voto,(aggiun su un array)
 
 const numberOfFilmS = +prompt("Quanti film hai visto")
 
@@ -21,4 +21,3 @@ personalMovieDB.movies[dom3] = +dom4;
 
 console.log(personalMovieDB)
 
-*/
