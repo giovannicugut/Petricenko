@@ -1,7 +1,7 @@
 
 //  L'utente deve agg 2 film e voto,(aggiun su un array)
 
-
+/*
 const numberOfFilmS = +prompt("Quanti film hai visto")
 
 const personalMovieDB = {
@@ -41,3 +41,4 @@ else if(numberOfFilmS != "number"){
     console.log(" Error, non e stato selezionato niete")
 }
 
+*/

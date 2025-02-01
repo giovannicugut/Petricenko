@@ -12,6 +12,7 @@
 
 */
 
+/*
 const lines = 7;
 let re = ""
 
@@ -42,7 +43,7 @@ for ( i = 1; i < lines; i++){
  
  //console.log(ult)
 
-
+*/
 
 //------------------- 3 --------------------------------------------
 //ciclo dentro il ciclo 3 volte (3 for) + metca
