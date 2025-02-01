@@ -8,7 +8,7 @@
   }
 
   function sconto(c){
-    console.log( (c*sc)/100)
+   // console.log( (c*sc)/100)
   }
    sconto(consv(clie,eur)) 
 
@@ -21,7 +21,7 @@ P.S. возвращать - это использовать ключевое с�
 function na (aa){
     return (`Ciao ${aa}`)
    }
-    console.log( na("Michele") ) 
+  //  console.log( na("Michele") ) 
 
 
 
@@ -34,7 +34,7 @@ function na (aa){
     return [ab-1, ab , ab+1];
    }
    
-   console.log(ar(9))
+  // console.log(ar(9))
 
    
   //----------------------- 4 ----------------------------------------
@@ -62,7 +62,7 @@ function na (aa){
     }
     return nn
   }
-     console.log( ff(3,4)) 
+  //   console.log( ff(3,4)) 
 
 //////------------------
 function sayHello(name) {
@@ -101,23 +101,3 @@ function getMathResult(num, times) {
 getMathResult(10, 5);
 
 
-
-
-
-function ger(d,k){
-
-    let mm =""
-    if( typeof d !== "number" || d <= 0){
-        console.log(" hai inserito un numero nimore di 0 o una variabile")
-    }
-    for( let m =1; m <= k; m++){
-        if (m ===k){
-            mm += d*m
-        }else{
-            mm += `${d*m}-->`
-        }
-    }
-    return mm
-}
- console.log( ger(5,5) )
-  

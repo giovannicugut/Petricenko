@@ -1,8 +1,17 @@
 
 //  L'utente deve agg 2 film e voto,(aggiun su un array)
 
-/*
-const numberOfFilmS = +prompt("Quanti film hai visto")
+
+let  numberOfFilmS;
+
+function start (){
+    numberOfFilmS = +prompt("Quanti film hai visto")
+
+    while(numberOfFilmS =="" || numberOfFilmS == null || isNaN(numberOfFilmS)) {  // se avra quest consiz, rifare la domanda
+        numberOfFilmS = +prompt("Quanti film hai visto")
+    }
+}
+//  start()
 
 const personalMovieDB = {
         count: numberOfFilmS,
@@ -12,7 +21,7 @@ const personalMovieDB = {
         privat: false,
             }
      
-
+function rememberMyFilms(){      // nome del film visto e voto
 for ( let i = 0; i < 2; i++){
     const a = prompt("Scrive un film che hai visto"),
           b = prompt("Da un voto al film ")
@@ -25,11 +34,12 @@ for ( let i = 0; i < 2; i++){
         i--;
     }
 }
+}
+  // rememberMyFilms()
+// console.log(personalMovieDB)
 
-console.log(personalMovieDB)
 
-
-
+function detectPersonalLevel(){   // da una clasifica dipende da quantita di fil visti
 if(numberOfFilmS < 10){
     console.log("NON sei un appasionato dei Film")
 }else if(numberOfFilmS >= 10 && numberOfFilmS < 20){
@@ -40,5 +50,21 @@ if(numberOfFilmS < 10){
 else if(numberOfFilmS != "number"){
     console.log(" Error, non e stato selezionato niete")
 }
+}
+//  detectPersonalLevel()
 
-*/
+function showMyDB (para){
+    if(para){
+        console.log( " Non e privato")
+    }
+}
+//  showMyDB(personalMovieDB.privat)
+
+
+function writeYourGenres (){
+    for (let i = 1; i <=3; i++){
+        const dom = prompt(`inserire il genere che ti piace sul posto ${i}`)
+        personalMovieDB.gener[i-1] = dom
+    }
+}
+  //writeYourGenres()
