@@ -23,7 +23,7 @@ const personalMovieDB = {
      
 function rememberMyFilms(){      // nome del film visto e voto
 for ( let i = 0; i < 2; i++){
-    const a = prompt("Scrive un film che hai visto"),
+    const a = prompt("Scrive un film che hai visto").trim() ,  // .trim cancella spazi vouti(qui sara la risposta dal utente)
           b = prompt("Da un voto al film ")
 
     if(a != null && b !=null && a != "" && b!= "" && a != a.length < 20){
