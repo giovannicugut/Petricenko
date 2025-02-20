@@ -105,7 +105,6 @@ sortStudentsByGroups(students)  =>
 ]
   */
 
-const students = ['Peter', 'Andrew', 'Ann', 'Mark', 'Josh', 'Sandra', 'Cris', 'Bernard', 'Takesi', 'Sam'];
 
 function sortStudentsByGroups(arr) {
     arr.sort();
@@ -125,4 +124,5 @@ function sortStudentsByGroups(arr) {
     return [a,b,c, `Оставшиеся студенты: ${rest.length === 0 ? '-' : rest.join(', ')}`]
 }   //parentesi quadri del return hanno creato un unico array dove sara tutti gruppi dentro
 
- console.log(sortStudentsByGroups(students));
+ //console.log(sortStudentsByGroups(students));
+
